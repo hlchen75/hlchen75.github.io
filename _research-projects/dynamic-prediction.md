@@ -3,6 +3,7 @@ title: "Dynamic Prediction in Longitudinal Clustered Dental Data (Ongoing)"
 collection: research-projects
 permalink: /research-projects/dynamic-prediction
 venue: 'DLSPH UofT'
+last_modified_date: 2025-01-01 
 
 ---
 
