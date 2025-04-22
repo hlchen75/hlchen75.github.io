@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am **Hanlong (Ricky) Chen**, a graduate student in the Master of Science in Biostatistics at the University of Toronto, under the supervision of Dr. Aya Mitani. I am also currently working as a Graduate Practicum Student at Rotman Research Institute in Baycrest, focusing on cognitive profiles of people living with dementia, under the supervison of Dr. Malcolm Binns.
+Hi! I am **Hanlong (Ricky) Chen**, a graduate student in the Master of Science in Biostatistics at the University of Toronto, under the supervision of [**Dr. Aya Mitani**](Ayamitani.com). I am also currently working as a Graduate Practicum Student at Rotman Research Institute in Baycrest, focusing on cognitive profiles of people living with dementia, under the supervison of [**Dr. Malcolm Binns**](https://www.dlsph.utoronto.ca/faculty-profile/binns-malcolm/).
 
 
 
