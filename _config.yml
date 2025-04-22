@@ -7,14 +7,20 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Hanlong Chen"
+title: Hanlong Chen
 email: sl.chen@mail.utoronto.ca
 description: MSc Biostatistics @ University of Toronto
-url                      : https://hlchen75.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "hlchen75/hlchen75.github.io"
+url: https://hanlongchen.com
+
+remote_theme: academicpages/academicpages.github.io@master
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
