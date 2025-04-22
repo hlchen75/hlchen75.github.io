@@ -7,17 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome to my academic website!
+Hi! I am **Hanlong Chen**, a graduate student in the Master of Science in Biostatistics at the University of Toronto, under the supervision of Dr. Aya Mitani. I am also currently working as a Graduate Practicum Student at Rotman Research Institute in Baycrest, focusing on cognitive profiles of people living with dementia, under the supervison of Dr. Malcolm Binns.
 
-I am Hanlong Chen, a graduate student in the Master of Science in Biostatistics at the University of Toronto. 
 
-## About Me
-
-To be built.
-
-## Current Work
-
-I am currently working as a Graduate Practicum Student at Rotman Research Institute in Baycrest, focusing on cognitive profiles of people living with dementia.
 
 ## Research Interests
 
