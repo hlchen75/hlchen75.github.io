@@ -1,7 +1,7 @@
 ---
 title: "Cognitive Profiles of People Living with Dementia (Ongoing)"
 collection: research-projects
-permalink: /research-projects/cognitive-profiles
+permalink: /research-projects/02-cognitive-profiles
 venue: 'Baycrest Rotman Research Institute'
 last_modified_date: 2024-10-01 
 ---
