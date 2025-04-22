@@ -27,7 +27,7 @@ plugins:
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/991.jpg"
+  avatar           : ""
   name             : "Hanlong Chen"
   pronouns         : "he/him"  
   bio              : "MSc Biostatistics @ University of Toronto"
