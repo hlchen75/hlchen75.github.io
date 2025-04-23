@@ -4,6 +4,7 @@ collection: research-projects
 permalink: /research-projects/02-cognitive-profiles
 venue: 'Baycrest Rotman Research Institute'
 last_modified_date: 2024-10-01 
+author_profile: true  
 excerpt_separator: "<!--more-->" 
 layout: single
 ---
