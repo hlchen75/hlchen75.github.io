@@ -5,6 +5,7 @@ permalink: /research-projects/01-dynamic-prediction
 venue: 'DLSPH UofT'
 last_modified_date: 2025-01-01 
 excerpt_separator: "<!--more-->" 
+layout: collection
 ---
 
 <!--more--> 
