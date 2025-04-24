@@ -10,4 +10,4 @@ layout: single
 ---
 
 <!--more--> 
-This is an my ongoing master thesis project under supervision of [**Dr. Aya Mitani**](https://www.ayamitani.com/).
+This is my ongoing master thesis project under supervision of [**Dr. Aya Mitani**](https://www.ayamitani.com/).
