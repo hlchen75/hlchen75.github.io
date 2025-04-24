@@ -13,7 +13,7 @@ author_profile: true
 ## Experience
 
 ### Graduate Practicum Student, Oct 2024 - Present
-- Baycrest Rotman Research Institute
+- Rotman Research Institute, Baycrest
 - Cognitive Profile of People Living with Dementia
 - Supervisor: Malcolm Binns
 
