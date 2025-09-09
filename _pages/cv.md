@@ -22,7 +22,7 @@ author_profile: true
 - Bayesian Approach for Modelling Inverse Gaussian Observations From a Completely Randomized Design
 - Supervisor: Dr. Murari Singh
 
-### Data Analyst Intern, May 2021 - Aug 2021 & May 2023 - Aug 2023
+### Research Analyst, May 2021 - Aug 2021 & May 2023 - Aug 2023
 - Guangzhou Center for Disease Control and Prevention
 
 
