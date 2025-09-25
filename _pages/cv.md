@@ -10,6 +10,7 @@ author_profile: true
 **M.S in Biostatistics**, 2024 - Present
 - University of Toronto | Toronto, ON
 - Advisor: Dr. Aya Mitani
+
 **Honours B.S. in Mathematics and Statistics**, 2019 - 2024
 - University of Toronto | Toronto, ON
 
