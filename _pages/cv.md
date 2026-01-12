@@ -30,3 +30,15 @@ author_profile: true
 - Guangzhou Center for Disease Control and Prevention | Guangzhou, China
 
 
+## Teaching Experience
+
+**University of Toronto (St. George)**
+- COG260: Data, Computation, and the Mind
+- STA130: Introduction to Statistical Reasoning and Data Science
+
+
+**University of Toronto (Scarborough)**
+- STAC33: Introduction to Applied Statistics
+- STAB27: Statistics II
+- STAA57: Introduction to Data Science
+- MATB44: Differential Equations I
