@@ -42,3 +42,4 @@ author_profile: true
 - STAB27: Statistics II
 - STAA57: Introduction to Data Science
 - MATB44: Differential Equations I
+- STAD91: Bayesian
