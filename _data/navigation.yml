@@ -11,12 +11,8 @@ main:
   - title: "Research Projects"
     url: /research-projects/
 
-  - title: "Talks"
-    url: /talks/     
-    
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+  - title: "Presentations"
+    url: /talks/
+
   - title: "CV"
     url: /cv/
