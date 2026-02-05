@@ -33,6 +33,10 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
+/* Enhanced color palette variables for dark theme */
+$primary-teal-light          : #6bc4db;
+$accent-warm                 : #f4a261;
+
 /* Dark theme for the site */
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
@@ -43,7 +47,7 @@ html[data-theme="dark"] {
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
+    --global-link-color                 : #{$primary-teal-light};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
@@ -51,4 +55,8 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+
+    /* Enhanced color variables for dark theme */
+    --global-accent-color               : #{$accent-warm};
+    --global-card-bg                    : mix(#fff, #{$background}, 5%);
 }

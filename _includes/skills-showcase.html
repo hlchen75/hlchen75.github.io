@@ -1,0 +1,67 @@
+<section class="skills-showcase">
+  <h2 class="skills-title">
+    <i class="fa fa-tools" aria-hidden="true"></i>
+    Skills & Expertise
+  </h2>
+
+  <!-- Technical Skills with Proficiency Bars -->
+  <div class="skills-category">
+    <h3 class="skills-category-title">Technical Skills</h3>
+    <div class="skills-grid">
+      {% for skill in site.data.skills.technical_skills %}
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-icon">
+              <i class="fab {{ skill.icon }}" aria-hidden="true"></i>
+            </span>
+            <span class="skill-name">{{ skill.name }}</span>
+            <span class="skill-percentage">{{ skill.proficiency }}%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: {{ skill.proficiency }}%"></div>
+          </div>
+          {% if skill.description %}
+            <p class="skill-description">{{ skill.description }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Statistical Methods with Visual Icons -->
+  <div class="skills-category">
+    <h3 class="skills-category-title">Statistical Methods</h3>
+    <div class="methods-grid">
+      {% for method in site.data.skills.statistical_methods %}
+        <div class="method-card">
+          <div class="method-icon">
+            <i class="fa {{ method.icon }}" aria-hidden="true"></i>
+          </div>
+          <h4 class="method-name">{{ method.name }}</h4>
+          <div class="method-level">
+            {% assign dots = method.proficiency | divided_by: 20 %}
+            {% for i in (1..5) %}
+              {% if i <= dots %}
+                <span class="level-dot active"></span>
+              {% else %}
+                <span class="level-dot"></span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Research Focus Areas with Tag-style Display -->
+  <div class="skills-category">
+    <h3 class="skills-category-title">Research Focus Areas</h3>
+    <div class="research-tags">
+      {% for area in site.data.skills.research_areas %}
+        <span class="research-tag research-tag--{{ area.emphasis }}">
+          {{ area.name }}
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+</section>

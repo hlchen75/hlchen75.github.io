@@ -1,0 +1,87 @@
+/* ==========================================================================
+   CV PAGE ENHANCEMENTS
+   Enhanced styling for curriculum vitae page
+   ========================================================================== */
+
+.cv-header {
+  background: linear-gradient(135deg, var(--global-link-color) 0%, var(--global-link-color-hover) 100%);
+  color: white;
+  padding: 2em;
+  border-radius: 8px;
+  margin-bottom: 3em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cv-intro {
+  font-size: $type-size-4;
+  line-height: $line-height-body;
+  margin: 0;
+  font-weight: 300;
+}
+
+.cv-section {
+  margin-bottom: 3em;
+}
+
+.cv-item {
+  background: var(--global-card-bg);
+  border-left: 3px solid var(--global-link-color);
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateX(5px);
+  }
+}
+
+.cv-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.75em;
+  flex-wrap: wrap;
+  gap: 1em;
+
+  h3 {
+    margin: 0;
+    font-size: $type-size-4;
+    color: var(--global-text-color);
+  }
+}
+
+.cv-item-body {
+  p {
+    margin-bottom: 0.5em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    color: var(--global-text-color);
+  }
+}
+
+.cv-date {
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+  font-weight: 600;
+  letter-spacing: $letter-spacing-meta;
+}
+
+.cv-description {
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+/* CV section icons */
+.page__content {
+  h2 i {
+    color: var(--global-link-color);
+    margin-right: 0.5em;
+  }
+}

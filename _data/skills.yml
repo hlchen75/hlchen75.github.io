@@ -1,0 +1,64 @@
+technical_skills:
+  - name: "R"
+    category: "Programming Languages"
+    proficiency: 90
+    icon: "fa-r-project"
+    description: "Statistical computing, data analysis, and visualization"
+
+  - name: "Python"
+    category: "Programming Languages"
+    proficiency: 85
+    icon: "fa-python"
+    description: "Machine learning, data science, and automation"
+
+  - name: "SAS"
+    category: "Statistical Software"
+    proficiency: 75
+    icon: "fa-chart-bar"
+    description: "Clinical trial analysis and pharmaceutical statistics"
+
+  - name: "SQL"
+    category: "Programming Languages"
+    proficiency: 70
+    icon: "fa-database"
+    description: "Database management and data querying"
+
+  - name: "Git"
+    category: "Tools"
+    proficiency: 80
+    icon: "fa-git-alt"
+    description: "Version control and collaborative development"
+
+statistical_methods:
+  - name: "Survival Analysis"
+    proficiency: 90
+    icon: "fa-heartbeat"
+
+  - name: "Longitudinal Data Analysis"
+    proficiency: 85
+    icon: "fa-chart-line"
+
+  - name: "Machine Learning"
+    proficiency: 80
+    icon: "fa-brain"
+
+  - name: "Bayesian Statistics"
+    proficiency: 75
+    icon: "fa-project-diagram"
+
+  - name: "Dynamic Prediction Models"
+    proficiency: 85
+    icon: "fa-sync-alt"
+
+research_areas:
+  - name: "Biostatistics"
+    emphasis: "high"
+
+  - name: "Clinical Trials"
+    emphasis: "medium"
+
+  - name: "Healthcare Analytics"
+    emphasis: "high"
+
+  - name: "Cognitive Health"
+    emphasis: "high"

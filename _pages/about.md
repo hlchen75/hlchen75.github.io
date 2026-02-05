@@ -17,6 +17,7 @@ Hi! I am **Hanlong (Ricky) Chen**, a graduate student in the Master of Science i
 - Survival Analysis
 - Machine Learning
 
+{% include skills-showcase.html %}
 
 ## Contact
 

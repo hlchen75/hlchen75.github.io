@@ -16,7 +16,7 @@ body {
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: $line-height-body;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -25,10 +25,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
+  margin: 2em 0 0.75em;
+  line-height: $line-height-heading;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: $letter-spacing-heading;
 }
 
 h1 {
@@ -61,7 +62,28 @@ small, .small {
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.5em;
+}
+
+/* ==========================================================================
+   ENHANCED TRANSITIONS AND ANIMATIONS
+   ========================================================================== */
+
+/* Global transition speeds */
+$global-transition-fast    : all 0.15s ease;
+$global-transition         : all 0.25s ease;
+$global-transition-slow    : all 0.4s ease;
+
+/* Fade-in animation for content */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 u,

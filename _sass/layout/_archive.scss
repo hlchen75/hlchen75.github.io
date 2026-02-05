@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .archive {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -40,8 +40,10 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
   font-family: $sans-serif-narrow;
+  font-weight: 600;
 
   a + a {
     opacity: 0.5;
@@ -58,8 +60,10 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
+  margin-top: 0.75em;
+  margin-bottom: 1em;
   font-size: $type-size-6;
+  line-height: $line-height-body;
 
   & + p {
     text-indent: 0;
@@ -72,6 +76,16 @@
   img {
     width: 100%;
   }
+}
+
+.archive__item {
+  animation: fadeInUp 0.4s ease both;
+
+  &:nth-child(1) { animation-delay: 0.05s; }
+  &:nth-child(2) { animation-delay: 0.1s; }
+  &:nth-child(3) { animation-delay: 0.15s; }
+  &:nth-child(4) { animation-delay: 0.2s; }
+  &:nth-child(5) { animation-delay: 0.25s; }
 }
 
 .archive__item:hover {
@@ -90,6 +104,14 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 2.5em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--global-border-color-light);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
