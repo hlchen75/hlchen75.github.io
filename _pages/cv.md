@@ -5,9 +5,6 @@ permalink: /cv/
 author_profile: true
 ---
 
-<div class="cv-header">
-  <p class="cv-intro">MSc Biostatistics candidate with expertise in dynamic prediction, survival analysis, and machine learning applications in healthcare.</p>
-</div>
 
 ## <i class="fa fa-graduation-cap"></i> Education
 
