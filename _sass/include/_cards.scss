@@ -200,3 +200,36 @@
   padding-top: 1em;
   border-top: 1px solid var(--global-border-color-light);
 }
+
+.research-project-item {
+  .content-card__title a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-link-color);
+    }
+  }
+}
+
+.research-project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+}
+
+.research-meta-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: $type-size-7;
+  padding: 0.25em 0.7em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: var(--global-card-bg);
+  color: var(--global-text-color-light);
+}
+
+.research-meta-chip--status {
+  border-color: var(--global-link-color);
+  color: var(--global-link-color);
+}
