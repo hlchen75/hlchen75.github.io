@@ -5,6 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
+My updated CV can be found [here]({{ '/files/CV_0408.pdf' | relative_url }}).
 
 ## <i class="fa fa-graduation-cap"></i> Education
 
