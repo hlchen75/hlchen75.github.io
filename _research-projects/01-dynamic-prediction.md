@@ -14,6 +14,6 @@ layout: single
 This master thesis project focuses on dynamic prediction for clustered survival outcomes using longitudinal dental data in real-world care contexts.
 <!--more--> 
 
-I am developing this project under the supervision of [**Dr. Aya Mitani**](https://www.ayamitani.com/).
+I am developing this project under the supervision of [**Dr. Aya Mitani**](https://www.dlsph.utoronto.ca/faculty-profile/ayamitani/).
 
 The current page provides a short project background; a full technical write-up will be added later.
