@@ -32,8 +32,9 @@ every page links to relatively).
 
 ## Editing content
 
-- **The intro** — the single `<p class="bio">` in `index.html`. The research
-  interests below it are one line in `<p class="interests">`.
+- **The intro** — the three paragraphs inside `<div class="home-intro">` in
+  `index.html`. The research interests below it are one line in
+  `<p class="interests">`.
 - **A project or paper** — these are the same entry. Copy an
   `<article class="project">` block in `research.html` and title it with the
   paper's title. The list is deliberately not grouped: each entry carries its
@@ -45,7 +46,7 @@ every page links to relatively).
 
   ```html
   <p class="lede reveal">My most recent CV is available as a
-    <a href="files/Hanlong_Chen_CV.pdf">PDF</a>, last updated 27 July 2026.</p>
+    <a href="files/Hanlong_Chen_CV.pdf">PDF</a>, last updated 28 July 2026.</p>
   ```
 
   That sentence is the only place the PDF is linked, so the filename and the
