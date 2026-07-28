@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Research by Hanlong Chen — dynamic prediction for clustered survival data, dementia subtyping, reliability of electronic dental records, and longitudinal EHR imputation.">
+<meta name="description" content="Research by Hanlong Chen — landmarking models for clustered survival data, cognitive heterogeneity in dementia, electronic dental record reliability, and longitudinal EHR imputation.">
 <link rel="canonical" href="https://hanlongchen.com/research.html">
 <meta property="og:title" content="Research — Hanlong Chen">
-<meta property="og:description" content="Dynamic prediction, survival analysis, and missing-data methods for electronic health records.">
+<meta property="og:description" content="Landmarking models for clustered survival data, cognitive heterogeneity in dementia, and missing-data methods for electronic health records.">
 <meta property="og:url" content="https://hanlongchen.com/research.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Hanlong Chen">
@@ -27,7 +27,6 @@
     <a class="monogram" href="index.html" aria-label="Hanlong Chen — home">H<span class="tick">&middot;</span>C</a>
     <div class="nav-links">
       <a href="research.html" aria-current="page">Research</a>
-      <a href="publications.html">Papers</a>
       <a href="talks.html">Talks</a>
       <a href="teaching.html">Teaching</a>
       <a class="cv" href="files/Hanlong_Chen_CV.pdf">CV</a>
@@ -41,68 +40,91 @@
 <main id="main" tabindex="-1">
 
   <section class="page-hero container" aria-label="Research overview">
-    <p class="eyebrow reveal"><span class="idx">06</span>projects</p>
+    <p class="eyebrow reveal"><span class="idx">07</span>projects</p>
     <h1 class="reveal">Research</h1>
-    <p class="lede reveal">Dynamic prediction &middot; survival analysis &middot; longitudinal &amp; clustered data &middot; machine learning &amp; unsupervised clustering &middot; missing data &amp; EHR &middot; Bayesian methods.</p>
+    <p class="lede reveal">My own name is set in bold. <span class="mark">&lowast;</span> denotes equal contribution and <span class="mark">&dagger;</span> the corresponding author.</p>
   </section>
 
-  <section class="section" aria-labelledby="active-h">
+  <section class="section" aria-labelledby="review-h">
     <div class="container section-inner">
       <div class="section-head reveal">
-        <p class="eyebrow"><span class="idx">04</span>in progress</p>
-        <h2 id="active-h">Active projects</h2>
+        <p class="eyebrow"><span class="idx">02</span>submitted</p>
+        <h2 id="review-h">Under review</h2>
       </div>
       <div class="projects">
 
         <article class="project reveal">
           <div class="project-head">
-            <h3>Dynamic Prediction of Tooth Loss with Landmarking Models</h3>
+            <h3>Assessing the Reliability of Electronic Dental Records Through Agreement of Probing Pocket Depths Measured Between Two Closely Conducted Periodontal Exams</h3>
+            <p class="period">Apr 2025&ndash;present</p>
+          </div>
+          <p class="authors">Aya Mitani, <strong>Hanlong Chen</strong>, Yuning Wang, Christopher McCulloch</p>
+          <p class="venue">Dalla Lana School of Public Health, University of Toronto &middot; Advisor: Dr. Aya Mitani</p>
+          <p class="desc">Agreement of probing pocket depths between two closely conducted periodontal exams, modelled with cumulative link mixed models with multi-level random effects and summarized by integral-based agreement and kappa statistics with delta-method variance.</p>
+          <p class="status">Submitted to the <i>Journal of Clinical Periodontology</i></p>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-head">
+            <h3>Dynamic Prediction of Tooth Loss Using Landmarking Models with Clustered Survival Data</h3>
             <p class="period">Jan 2025&ndash;present</p>
           </div>
-          <p class="venue">Master&rsquo;s thesis &middot; Dalla Lana School of Public Health, University of Toronto</p>
-          <p class="desc">A shared-frailty landmark framework with hierarchical Gaussian-process longitudinal smoothing for dynamic risk prediction in clustered survival data, together with a cluster-aware AUC algorithm and large-scale simulations on the Trillium HPC cluster. The thesis has passed its defense; the manuscript is pending submission.</p>
-          <p class="supervisor">Advisor: Dr. Aya Mitani</p>
-        </article>
-
-        <article class="project reveal">
-          <div class="project-head">
-            <h3>Cognitive Heterogeneity in Dementia</h3>
-            <p class="period">Oct 2024&ndash;present</p>
-          </div>
-          <p class="venue">Rotman Research Institute, Baycrest</p>
-          <p class="desc">Whether the cognitive profiles of people living with dementia form reproducible discrete subtypes. Under cross-validated joint selection of PCA dimensionality and cluster number, the data point instead to a continuous severity factor and an age-related amnestic axis, with no subtype solution that replicates.</p>
-          <p class="supervisor">Supervisor: Dr. Malcolm Binns</p>
-        </article>
-
-        <article class="project reveal">
-          <div class="project-head">
-            <h3>Reliability of Electronic Dental Records</h3>
-            <p class="period">Apr 2025&ndash;present</p>
-          </div>
-          <p class="venue">Dalla Lana School of Public Health, University of Toronto</p>
-          <p class="desc">Agreement of probing pocket depths between two closely conducted periodontal exams, modelled with cumulative link mixed models with multi-level random effects and summarized by integral-based agreement and kappa statistics with delta-method variance. Submitted to the <i>Journal of Clinical Periodontology</i>.</p>
-          <p class="supervisor">Advisor: Dr. Aya Mitani</p>
-        </article>
-
-        <article class="project reveal">
-          <div class="project-head">
-            <h3>Imputing Longitudinal EHR Laboratory Data</h3>
-            <p class="period">Apr 2025&ndash;present</p>
-          </div>
-          <p class="venue">Canadian Primary Care Sentinel Surveillance Network (CPCSSN)</p>
-          <p class="desc">A sequential mixed-effects imputation framework for visit-level informative missingness in longitudinal laboratory data, with an imputation-aware evaluation of how metabolic subtyping methods behave once the missingness is accounted for.</p>
-          <p class="supervisor">Supervisors: Dr. Camellia Zakaria and Dr. Aya Mitani</p>
+          <p class="authors"><strong>Hanlong Chen</strong>, Xinyang Feng, Aya Mitani</p>
+          <p class="venue">Master&rsquo;s thesis &middot; Dalla Lana School of Public Health, University of Toronto &middot; Advisor: Dr. Aya Mitani</p>
+          <p class="desc">A shared-frailty landmark framework with hierarchical Gaussian-process longitudinal smoothing for dynamic risk prediction in clustered survival data, together with a cluster-aware AUC algorithm and large-scale simulations on the Trillium HPC cluster.</p>
+          <p class="status">Passed thesis defense, pending submission</p>
         </article>
 
       </div>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="done-h">
+  <section class="section" aria-labelledby="progress-h">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="idx">03</span>in progress</p>
+        <h2 id="progress-h">In progress</h2>
+      </div>
+      <div class="projects">
+
+        <article class="project reveal">
+          <div class="project-head">
+            <h3>Continuous Cognitive Heterogeneity in Dementia: A Severity Factor and an Age-Related Amnestic Axis Without Reproducible Subtypes</h3>
+            <p class="period">Oct 2024&ndash;present</p>
+          </div>
+          <p class="authors"><strong>Hanlong Chen</strong><span class="mark">&lowast;,&dagger;</span>, Ian Zhang<span class="mark">&lowast;</span>, &hellip;, Malcolm Binns</p>
+          <p class="venue">Rotman Research Institute, Baycrest &middot; Supervisor: Dr. Malcolm Binns</p>
+          <p class="desc">Whether the cognitive profiles of people living with dementia form reproducible discrete subtypes. Under cross-validated joint selection of PCA dimensionality and cluster number, the data point instead to a continuous severity factor and an age-related amnestic axis, with no subtype solution that replicates.</p>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-head">
+            <h3>Redundancy-Aware Model Assessment for Component and Cluster Selection in Clinical Subtype Discovery</h3>
+            <p class="period">Oct 2024&ndash;present</p>
+          </div>
+          <p class="authors">Ian Zhang<span class="mark">&lowast;,&dagger;</span>, <strong>Hanlong Chen</strong><span class="mark">&lowast;</span>, &hellip;, Malcolm Binns</p>
+          <p class="venue">Rotman Research Institute, Baycrest &middot; Supervisor: Dr. Malcolm Binns</p>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-head">
+            <h3>A Sequential Mixed-Effects Imputation Framework for Visit-Level Informative Missingness and Imputation-Aware Evaluation of Metabolic Subtyping Methods in Longitudinal EHR Data</h3>
+            <p class="period">Apr 2025&ndash;present</p>
+          </div>
+          <p class="authors"><strong>Hanlong Chen</strong>, Bruce Liu, Aya Mitani, Karim Keshavjee, Felipe Cepeda, Aziz Guergachi, Camellia Zakaria</p>
+          <p class="venue">Canadian Primary Care Sentinel Surveillance Network (CPCSSN) &middot; Supervisors: Dr. Camellia Zakaria and Dr. Aya Mitani</p>
+          <p class="desc">A sequential mixed-effects imputation framework for visit-level informative missingness in longitudinal laboratory data, with an imputation-aware evaluation of how metabolic subtyping methods behave once the missingness is accounted for.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="earlier-h">
     <div class="container section-inner">
       <div class="section-head reveal">
         <p class="eyebrow"><span class="idx">02</span>concluded</p>
-        <h2 id="done-h">Completed</h2>
+        <h2 id="earlier-h">Earlier work</h2>
       </div>
       <div class="projects">
 
@@ -130,7 +152,7 @@
 
   <nav class="container pager" aria-label="Page navigation">
     <a href="index.html">&larr; Home</a>
-    <a href="publications.html">Working papers &rarr;</a>
+    <a href="talks.html">Talks &rarr;</a>
   </nav>
 
 </main>
@@ -148,7 +170,7 @@
   </div>
 </footer>
 
-<!-- shared block — byte-identical on all five pages; edit all five, or none -->
+<!-- shared block — byte-identical on all four pages; edit all four, or none -->
 <script>
   (function () {
     var root = document.documentElement;
