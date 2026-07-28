@@ -50,8 +50,6 @@ every page links to relatively).
 
   That sentence is the only place the PDF is linked, so the filename and the
   date live in exactly one spot. Everywhere else, "CV" points at `cv.html`.
-  Also re-check the counts in the eyebrows (`<span class="idx">07</span>projects`
-  and friends) if the CV changed what is listed.
 - **A photo** — there is no photo slot by design; the site is text-first. Ask
   Claude to add a portrait to the hero if you later want one.
 
@@ -59,6 +57,13 @@ Two things are duplicated on purpose and must be edited on all five pages or
 none: the `<script>` block at the bottom, and the small theme script in `<head>`
 (it has to run before the stylesheet loads, otherwise the page flashes the wrong
 theme).
+
+## The eyebrow numerals
+
+The cobalt `01` / `02` / `03` above each section heading are section indices, in
+page order — not counts. They mean one thing everywhere and never need updating
+when content is added, so renumber them only if you reorder or add a section.
+Page heroes carry a plain text eyebrow with no numeral.
 
 ## Design tokens
 
