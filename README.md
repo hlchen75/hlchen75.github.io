@@ -8,7 +8,7 @@ follow the visitor's OS setting and can be overridden with the toggle in the nav
 
 ```
 index.html      Home — name, short intro, research interests, contact
-research.html   Seven projects titled by their paper, grouped by status
+research.html   Seven projects titled by their paper, each with its status
 talks.html      Three conference talks and one poster
 teaching.html   Nine courses, by campus
 cv.html         Education and experience, plus a link to the CV PDF
@@ -35,10 +35,10 @@ every page links to relatively).
 - **The intro** — the single `<p class="bio">` in `index.html`. The research
   interests below it are one line in `<p class="interests">`.
 - **A project or paper** — these are the same entry. Copy an
-  `<article class="project">` block into the right section of `research.html`
-  (Under review, In progress, or Earlier work) and title it with the paper's
-  title. Earlier entries with no manuscript carry `class="project project--done"`.
-  Equal-contribution and corresponding-author marks use
+  `<article class="project">` block in `research.html` and title it with the
+  paper's title. The list is deliberately not grouped: each entry carries its
+  own `<p class="status">` line instead ("Submitted to …", "Manuscript in
+  progress", "Completed"). Equal-contribution and corresponding-author marks use
   `<span class="mark">&lowast;</span>`.
 - **A new CV** — overwrite `files/Hanlong_Chen_CV.pdf`, then update the date in
   the one sentence that links to it, in `cv.html`:
@@ -61,7 +61,8 @@ theme).
 ## The eyebrow numerals
 
 The cobalt `01` / `02` / `03` above each section heading are section indices, in
-page order — not counts. They mean one thing everywhere and never need updating
+page order — not counts. Research has no such numerals because it is one
+ungrouped list. They mean one thing everywhere and never need updating
 when content is added, so renumber them only if you reorder or add a section.
 Page heroes carry a plain text eyebrow with no numeral.
 
