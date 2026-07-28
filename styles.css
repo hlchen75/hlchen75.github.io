@@ -153,6 +153,21 @@ main:focus { outline: none; }
   height: 3.25rem;
 }
 
+.brand {
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--text);
+  text-decoration: none;
+  /* the links never shrink, so the wordmark ellipsizes rather than
+     letting the row overflow on a narrow phone */
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .nav-links {
   flex: none;
   display: flex;
@@ -554,9 +569,24 @@ main:focus { outline: none; }
   .nav-links a { font-size: 0.75rem; }
 }
 
+@media (max-width: 480px) {
+  /* the wordmark on the left already goes home */
+  .nav-links a[href="index.html"] { display: none; }
+  .brand { font-size: 0.875rem; }
+  .nav-links { gap: 0.7rem; }
+}
+
 @media (max-width: 400px) {
+  .brand { font-size: 0.8125rem; }
   .nav-links { gap: 0.6rem; }
   .nav-links a { font-size: 0.6875rem; }
+}
+
+@media (max-width: 340px) {
+  .brand { font-size: 0.75rem; }
+  .nav-links { gap: 0.5rem; }
+  .nav-links a { font-size: 0.625rem; }
+  .theme-toggle { width: 1.5rem; height: 1.5rem; }
 }
 
 @media (max-width: 440px) {
