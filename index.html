@@ -12,7 +12,6 @@
 <meta property="og:site_name" content="Hanlong Chen">
 <meta name="theme-color" content="#fbfcfe" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0c1120" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='10' fill='%231b2436'/><path d='M6 16H20V28H34V40H48V52H58' stroke='%234d86ff' stroke-width='6' fill='none'/></svg>">
 <!-- sets .js and the stored theme before first paint — must stay above the stylesheet -->
 <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light'){d.setAttribute('data-theme',t);}}catch(e){}})();</script>
 <link rel="stylesheet" href="styles.css">
@@ -24,12 +23,12 @@
 
 <header class="site-header">
   <nav class="container" aria-label="Primary">
-    <a class="monogram" href="index.html" aria-current="page" aria-label="Hanlong Chen — home">H<span class="tick">&middot;</span>C</a>
+    <a class="brand" href="index.html" aria-current="page">Hanlong Chen</a>
     <div class="nav-links">
       <a href="research.html">Research</a>
       <a href="talks.html">Talks</a>
       <a href="teaching.html">Teaching</a>
-      <a class="cv" href="files/Hanlong_Chen_CV.pdf">CV</a>
+      <a href="cv.html">CV</a>
       <button class="theme-toggle" type="button" aria-label="Switch colour theme" title="Switch colour theme">
         <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="6.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 1.6a6.4 6.4 0 0 1 0 12.8Z" fill="currentColor"/></svg>
       </button>
@@ -47,7 +46,7 @@
       <a href="mailto:sl.chen@mail.utoronto.ca">Email</a>
       <a href="https://github.com/hlchen75">GitHub</a>
       <a href="https://www.linkedin.com/in/hanlongchen">LinkedIn</a>
-      <a href="files/Hanlong_Chen_CV.pdf">CV</a>
+      <a href="cv.html">CV</a>
     </p>
   </section>
 
@@ -60,13 +59,13 @@
       <a href="mailto:sl.chen@mail.utoronto.ca">sl.chen@mail.utoronto.ca</a>
       <a href="https://github.com/hlchen75">GitHub</a>
       <a href="https://www.linkedin.com/in/hanlongchen">LinkedIn</a>
-      <a href="files/Hanlong_Chen_CV.pdf">CV</a>
+      <a href="cv.html">CV</a>
     </nav>
     <p class="copyright">&copy; 2026 Hanlong Chen</p>
   </div>
 </footer>
 
-<!-- shared block — byte-identical on all four pages; edit all four, or none -->
+<!-- shared block — byte-identical on all five pages; edit all five, or none -->
 <script>
   (function () {
     var root = document.documentElement;

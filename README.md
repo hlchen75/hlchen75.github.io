@@ -1,6 +1,6 @@
 # New site — "Ink & Cobalt"
 
-A zero-dependency four-page static site: four sibling HTML pages sharing one
+A zero-dependency five-page static site: five sibling HTML pages sharing one
 `styles.css`, plus a few lines of vanilla JS inlined in each page. No build step,
 no external fonts, no frameworks, no network requests. Light and dark themes
 follow the visitor's OS setting and can be overridden with the toggle in the nav
@@ -11,6 +11,7 @@ index.html      Home — name, short intro, research interests, contact
 research.html   Seven projects titled by their paper, grouped by status
 talks.html      Three conference talks and one poster
 teaching.html   Nine courses, by campus
+cv.html         Education and experience, plus a link to the CV PDF
 styles.css      Shared design tokens and all layout
 ```
 
@@ -39,13 +40,22 @@ every page links to relatively).
   title. Earlier entries with no manuscript carry `class="project project--done"`.
   Equal-contribution and corresponding-author marks use
   `<span class="mark">&lowast;</span>`.
-- **A new CV** — overwrite `files/Hanlong_Chen_CV.pdf` and nothing else changes;
-  all nine links already point at that filename. Also re-check the counts in
-  the eyebrows (`<span class="idx">07</span>projects` and friends) against it.
+- **A new CV** — overwrite `files/Hanlong_Chen_CV.pdf`, then update the date in
+  the one sentence that links to it, in `cv.html`:
+
+  ```html
+  <p class="lede reveal">My most recent CV is available as a
+    <a href="files/Hanlong_Chen_CV.pdf">PDF</a>, last updated 27 July 2026.</p>
+  ```
+
+  That sentence is the only place the PDF is linked, so the filename and the
+  date live in exactly one spot. Everywhere else, "CV" points at `cv.html`.
+  Also re-check the counts in the eyebrows (`<span class="idx">07</span>projects`
+  and friends) if the CV changed what is listed.
 - **A photo** — there is no photo slot by design; the site is text-first. Ask
   Claude to add a portrait to the hero if you later want one.
 
-Two things are duplicated on purpose and must be edited on all four pages or
+Two things are duplicated on purpose and must be edited on all five pages or
 none: the `<script>` block at the bottom, and the small theme script in `<head>`
 (it has to run before the stylesheet loads, otherwise the page flashes the wrong
 theme).
