@@ -525,26 +525,8 @@ main:focus { outline: none; }
 /* ============ Footer ============ */
 .site-footer {
   border-top: 1px solid var(--hairline);
-  padding-block: 2.25rem 3.25rem;
+  padding-block: 1.75rem 2.5rem;
 }
-
-.foot-inner { display: grid; gap: 1.1rem; }
-
-.foot-skills {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--text-3);
-}
-
-.foot-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.75rem;
-  font-size: 0.875rem;
-}
-
-.foot-links a { color: var(--text-2); text-decoration: none; }
-.foot-links a:hover { color: var(--accent); }
 
 .copyright {
   font-family: var(--font-mono);
