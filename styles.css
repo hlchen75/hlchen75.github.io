@@ -377,9 +377,6 @@ main:focus { outline: none; }
   margin-top: 0.25rem;
 }
 
-.project--done .project-title { font-size: 1.125rem; color: var(--text-2); }
-.project--done .venue { color: var(--text-3); }
-
 /* ============ Working papers ============ */
 .papers-list {
   counter-reset: paper;
