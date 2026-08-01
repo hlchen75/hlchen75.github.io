@@ -344,7 +344,22 @@ main:focus { outline: none; }
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   column-gap: 1.5rem;
+  row-gap: 0.15rem;
   align-items: baseline;
+}
+.project-head .project-title { grid-area: 1 / 1; }
+.project-head .unit { grid-area: 2 / 1; }
+.project-head .period { grid-area: 1 / 2; }
+
+/* the sub-unit reads as a lighter continuation of the name above it,
+   not as another kind of metadata */
+.project .unit {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
+  color: var(--text-2);
 }
 
 .project .project-title {
@@ -577,6 +592,9 @@ main:focus { outline: none; }
     grid-template-columns: minmax(0, 1fr);
     row-gap: 0.15rem;
   }
+  .project-head .project-title,
+  .project-head .unit,
+  .project-head .period { grid-area: auto; }
 }
 
 @media (max-width: 620px) {
