@@ -7,11 +7,11 @@ follow the visitor's OS setting and can be overridden with the toggle in the nav
 (the choice is remembered in `localStorage`).
 
 ```
-index.html      Home — name, short intro, research interests, contact
+index.html      Home — short intro, contact, and landscape photo
 research.html   Seven projects titled by their paper, each with its status
-talks.html      Three conference talks and one poster
+talks.html      Three conference talks and two posters
 teaching.html   Nine courses, by campus
-cv.html         Education and experience, plus a link to the CV PDF
+cv.html         Resume — education, selected experience, and the public PDF
 styles.css      Shared design tokens and all layout
 ```
 
@@ -27,32 +27,36 @@ or two — hard-reload if you still see the old stylesheet.
 To preview locally, open `index.html` in a browser. Everything is relative, so it
 works from the filesystem with no server.
 
-Keep `CNAME` (it holds the custom domain) and `files/` (the CV and slides, which
+Keep `CNAME` (it holds the custom domain) and `files/` (the resume and slides, which
 every page links to relatively).
 
 ## Editing content
 
 - **The intro** — the three paragraphs inside `<div class="home-intro">` in
-  `index.html`. The research interests below it are one line in
-  `<p class="interests">`.
+  `index.html`, including the contact line.
 - **A project or paper** — these are the same entry. Copy an
   `<article class="project">` block in `research.html` and title it with the
   paper's title. The list is deliberately not grouped: each entry carries its
-  own `<p class="status">` line instead ("Submitted to …", "Manuscript in
-  progress", "Completed"). Equal-contribution and corresponding-author marks use
-  `<span class="mark">&lowast;</span>`.
-- **A new CV** — overwrite `files/Hanlong_Chen_CV.pdf`, then update the date in
+  own `<p class="status">` line instead ("Under review", "Manuscript under
+  internal review", "Completed"). Equal-contribution and corresponding-author
+  marks use `<span class="mark">&lowast;</span>` and
+  `<span class="mark">&dagger;</span>`, respectively.
+- **A new public resume** — only when explicitly requested, replace
+  `files/Hanlong_Chen_CV.pdf`, then update the date in
   the one sentence that links to it, in `cv.html`:
 
   ```html
-  <p class="lede reveal">My most recent CV is available as a
-    <a href="files/Hanlong_Chen_CV.pdf">PDF</a>, last updated 28 July 2026.</p>
+  <p class="lede reveal">My resume is available as a
+    <a href="files/Hanlong_Chen_CV.pdf">PDF</a>, last updated 1 August 2026.</p>
   ```
 
   That sentence is the only place the PDF is linked, so the filename and the
-  date live in exactly one spot. Everywhere else, "CV" points at `cv.html`.
-- **A photo** — there is no photo slot by design; the site is text-first. Ask
-  Claude to add a portrait to the hero if you later want one.
+  date live in exactly one spot. Everywhere else, "Resume" points at `cv.html`.
+  The legacy page and PDF filenames are retained so existing links keep working.
+  The detailed interview-only CV is private: do not add it to this repository
+  or replace the public resume with it.
+- **The photo** — `images/vancouver.jpg` appears in the home page's
+  `<figure class="home-photo">`. Update its alt text and dimensions if replacing it.
 
 Two things are duplicated on purpose and must be edited on all five pages or
 none: the `<script>` block at the bottom, and the small theme script in `<head>`
