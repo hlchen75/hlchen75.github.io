@@ -11,7 +11,7 @@ index.html      Home — short intro, contact, and landscape photo
 research.html   Seven projects titled by their paper, each with its status
 talks.html      Three conference talks and two posters
 teaching.html   Nine courses, by campus
-cv.html         Resume — education, selected experience, and the public PDF
+cv.html         Resume — education and selected research experience (web only)
 styles.css      Shared design tokens and all layout
 ```
 
@@ -27,8 +27,8 @@ or two — hard-reload if you still see the old stylesheet.
 To preview locally, open `index.html` in a browser. Everything is relative, so it
 works from the filesystem with no server.
 
-Keep `CNAME` (it holds the custom domain) and `files/` (the resume and slides, which
-every page links to relatively).
+Keep `CNAME` (it holds the custom domain) and the presentation slides in `files/`.
+The resume is available only as a web page; do not publish a resume PDF.
 
 ## Editing content
 
@@ -41,20 +41,13 @@ every page links to relatively).
   internal review", "Completed"). Equal-contribution and corresponding-author
   marks use `<span class="mark">&lowast;</span>` and
   `<span class="mark">&dagger;</span>`, respectively.
-- **A new public resume** — only when explicitly requested, replace
-  `files/Hanlong_Chen_CV.pdf`, then update the date in
-  the one sentence that links to it, in `cv.html`:
-
-  ```html
-  <p class="lede reveal">My resume is available as a
-    <a href="files/Hanlong_Chen_CV.pdf">PDF</a>, last updated 1 August 2026.</p>
-  ```
-
-  That sentence is the only place the PDF is linked, so the filename and the
-  date live in exactly one spot. Everywhere else, "Resume" points at `cv.html`.
-  The legacy page and PDF filenames are retained so existing links keep working.
-  The detailed interview-only CV is private: do not add it to this repository
-  or replace the public resume with it.
+- **The resume** — update the education and experience entries directly in
+  `cv.html`. All "Resume" navigation links point to this web page. The PDF
+  download sentence and `files/Hanlong_Chen_CV.pdf` have been removed from the
+  published site. The previous PDF is backed up locally under
+  `local/private-resume/`, which is ignored by Git and must stay out of any
+  deployment. Do not restore a public PDF without an explicit request.
+  The detailed interview-only CV is private: do not add it to this repository.
 - **The photo** — `images/vancouver.jpg` appears in the home page's
   `<figure class="home-photo">`. Update its alt text and dimensions if replacing it.
 
